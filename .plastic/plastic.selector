@@ -1,0 +1,4 @@
+repository "WGG_1@WGG@cloud"
+  path "/"
+    br "/main"
+    co "/main"
