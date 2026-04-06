@@ -1,7 +1,12 @@
+using System;
 using UnityEngine;
 
 public class GameManagement : MonoBehaviour
 {
+    public void Start()
+    {
+        StaticData.LoadGameData();
+    }
     public void Exit()
     {
         Application.Quit();
